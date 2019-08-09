@@ -2,7 +2,8 @@
   <q-page class="flex flex-center">
     <img alt="Quasar logo" src="statics/logoDataTech.png" width="250rem">
     <q-btn color="purple-8"
-      class="full-width q-mt-md"
+      class="full-width q-mt-xs"
+      push
       label="Iniciar Realidade Aumentada"
       @click="routeModify()"/>
   </q-page>
