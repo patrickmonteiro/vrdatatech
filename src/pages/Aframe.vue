@@ -1,6 +1,6 @@
 <template>
   <q-page class="container scene">
-    <a-scene arjs='debugUIEnabled: false;'>
+    <a-scene arjs='debugUIEnabled: false;' vr-mode-ui="enabled: false">
       <!-- <a-marker id='frac3' type='pattern' url='statics/marker/pt-frac3.patt' vidhandler>
         <a-entity geometry="primitive: circle; radius: 1" rotation="-90 0 0"
           scale="1.8 1.5 1.5" material="shader:gif;src:url(statics/india.gif);"
